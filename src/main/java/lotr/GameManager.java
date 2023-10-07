@@ -3,7 +3,7 @@ package lotr;
 public class GameManager {
     public static void fight(Character c1, Character c2) {
         if (c1.getPower() == c2.getPower()) {
-            System.out.println("They are friends - they have the same powers");
+            System.out.println("They both have the same powers");
         }
         while (c1.isAlive() && c2.isAlive()) {
             System.out.println(c2.toString() + " is kicked by " + c1.toString());

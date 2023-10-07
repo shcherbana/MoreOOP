@@ -1,7 +1,5 @@
 package kick;
-
 import lotr.Character;
-
 public class DeathKick implements KickStrategy{
     @Override
     public void kick(Character whoKick, Character whoIsKicked) {
