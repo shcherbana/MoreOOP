@@ -8,6 +8,6 @@ public class VipKick implements KickStrategy{
         }else{
             whoIsKicked.setPower(whoIsKicked.getPower()-1);
         }
-        System.out.println("It's either victory or harsh loosing");
+        System.out.println("Harsh loosing!Or maybe still a chance?");
     }
 }
