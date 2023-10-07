@@ -1,6 +1,6 @@
 package kick;
 import lotr.Character;
-public class DeathKick implements KickStrategy{
+public class VipKick implements KickStrategy{
     @Override
     public void kick(Character whoKick, Character whoIsKicked) {
         if (whoKick.getPower() > whoIsKicked.getPower()){
